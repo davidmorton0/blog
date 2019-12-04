@@ -1,0 +1,100 @@
+<h1>Hello, Rails!</h1>
+<%= link_to 'My Blog', controller: 'articles' %>
+<%= link_to 'New article', new_article_path %>
+
+<div class="radioLeft">
+  <input checked="checked" name="CalendarType" value="1" type="radio"><b>Person </b>(False) <br>
+   <input checked="checked" name="CalendarType" value="2" type="radio"><b>Event </b>(False) <br>
+   <input checked="checked"  name="CalendarType" value="3" type="radio"><b>Release</b>(False) <br>
+</div>
+<br>
+
+<% @comment = Comment.first %>
+
+<%= radio_button("comment", "body", "bye") %>
+<%= label(:comment, :body) %>
+<br>
+<%= radio_button("comment", "body", "hello") %>
+<%= label(:comment, :body) %>
+<br>
+<br>
+<div class="grid-container">
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+  <div class="grid-item" id="question">
+    <div class="radio">
+      <%= radio_button("comment", "body", "hello") %>
+      <%= label(:comment, :bodybodybodybodybodybodybodybodybody) %>
+    </div>
+  </div>
+</div>
